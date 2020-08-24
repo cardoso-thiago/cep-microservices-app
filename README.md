@@ -60,6 +60,32 @@ Obtém as informações do CEP.
 This operation does not require authentication
 </aside>
 
+## Get CEP Zuul
+
+<a id="opIdGetCEPZuul"></a>
+
+> Code samples
+
+```http
+GET http://localhost:8080/cep/02313010 HTTP/1.1
+Host: localhost:8080
+
+```
+
+`GET /02313010`
+
+Obtém as informações do CEP via Zuul.
+
+<h3 id="get-cep-zuul-responses">Responses</h3>
+
+|Status|Meaning|Description|Schema|
+|---|---|---|---|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|none|None|
+
+<aside class="success">
+This operation does not require authentication
+</aside>
+
 ## Post Registry
 
 <a id="opIdPostRegistry"></a>
